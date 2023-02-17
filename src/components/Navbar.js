@@ -11,7 +11,7 @@ export default function Navbar() {
             </div>
             <div className="main-navbar-col2">
                 <ul>
-                    <li>Home</li>
+                    <li className="active-tab">Home</li>
                     <li>About</li>
                     <li>My Account</li>
                     <li>Contact</li>

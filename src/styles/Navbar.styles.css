@@ -1,7 +1,7 @@
 .main-navbar {
     background-color: #333333;
     color: #fff;
-    padding: 2%;
+    padding: 1.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,4 +30,13 @@
 .main-navbar-col2 ul li:hover {
     background-color: #ff9900;
     color: #333333;
+}
+
+.active-tab {
+    background-color: #ff9900;
+    color: #333333;
+}
+
+.active-tab:hover {
+    transition: none;
 }
