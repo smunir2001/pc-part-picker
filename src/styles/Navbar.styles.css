@@ -1,5 +1,4 @@
 .main-navbar {
-    /* background-color: #404040; */
     background-color: #333333;
     color: #fff;
     padding: 2%;
@@ -7,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+    border-bottom: 5px solid #ff9900;
 }
 
 .main-navbar-col1 h1 {
@@ -29,4 +29,5 @@
 
 .main-navbar-col2 ul li:hover {
     background-color: #ff9900;
+    color: #333333;
 }
