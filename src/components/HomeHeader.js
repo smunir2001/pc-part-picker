@@ -3,7 +3,7 @@ import '../styles/HomeHeader.styles.css'
 
 export default function HomeHeader() {
     return (
-        <div className="home-header">
+        <div className='home-header'>
             <ul>
                 <li>Builder</li>
                 <li>Build Guides</li>
