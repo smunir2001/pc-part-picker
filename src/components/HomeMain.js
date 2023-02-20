@@ -1,7 +1,8 @@
 import React from "react";
 import '../styles/HomeMain.styles.css'
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function HomeMain() {
     return (
@@ -21,7 +22,7 @@ export default function HomeMain() {
             </div>
             <div className='home-main-col2'>
                 <ul>
-                    <li id='features-title'>Features</li>
+                    <li id='features-title'>Features <FontAwesomeIcon icon={faListCheck} /></li>
                     <li><FontAwesomeIcon icon={faAngleRight}/> View various components & component specifications</li>
                     <li><FontAwesomeIcon icon={faAngleRight}/> Compare component prices</li>
                     <li><FontAwesomeIcon icon={faAngleRight}/> Build a custom PC and get a price estimate</li>

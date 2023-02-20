@@ -46,7 +46,7 @@
 }
 
 .home-sub-card-info-con {
-    max-width: 100%;
+    max-width: inherit;
     margin: auto;
     align-items: center;
     position: absolute;
