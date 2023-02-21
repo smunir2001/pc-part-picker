@@ -17,19 +17,34 @@ export default function Footer() {
                     <div className='footer-col-title'>
                         <h2>Categories</h2>
                     </div>
+                    <p>Builder</p>
+                    <p>Build Guides</p>
+                    <p>Completed Builds</p>
+                    <p>Browse Products</p>
                 </div>
                 <div className='footer-container-col' id='footer-container-col3'>
                     <div className='footer-col-title'>
                         <h2>Information</h2>
                     </div>
+                    <p>Downloads</p>
+                    <p>Forums</p>
+                    <p>Price Trends</p>
                 </div>
                 <div className='footer-container-col' id='footer-container-col4'>
                     <div className='footer-col-title'>
                         <h2>Company</h2>
                     </div>
+                    <p>About</p>
+                    <p>Contact & Imprint</p>
+                    <p>Terms of Service</p>
+                    <p>User Code of Conduct</p>
+                    <p>Privacy Policy</p>
                 </div>
             </div>
-            <div className='footer-row2'></div>
+            <div className='footer-row2'>
+                <input type='text' placeholder="johndoe@email.com"></input>
+                <button type='submit'>Subscribe</button>
+            </div>
         </div>
     );
 }
